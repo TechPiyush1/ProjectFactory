@@ -74,20 +74,20 @@ h2{
 }
 
 .rock  img {
-    height:80px;
+    height:4rem;
     width:60px;
     opacity:50%;
 }
 
 .paper img {
-    height:80px;
+    height:4rem;
     width:60px;
     opacity: 50%;
 }
 
 
 .scissor img {
-    height:80px;
+    height:4rem;
     width:60px;
     opacity: 50%;
     
