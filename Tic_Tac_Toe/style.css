@@ -1,0 +1,42 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:wheat;
+}
+
+h1{
+    font-style: italic;
+    font-size: 4rem;
+    text-align: center;
+    margin:2rem;
+    color:#d06624;
+}
+
+.container{
+    height:400px;
+    width:400px;
+    background: whitesmoke;
+    margin:100px auto 20px;
+}
+
+.row{
+    display:flex;
+}
+
+.box{
+height:130px;
+width:150px;
+border:2px solid black;
+color:red;
+font-size:8rem;
+text-align: center;
+cursor: pointer;
+}
+
+.done{
+    cursor:no-drop;
+}
