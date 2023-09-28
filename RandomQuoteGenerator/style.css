@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: aquamarine; 
+    position:relative;
+}
+
+h1{
+    position: absolute;
+    font-size: 80px;
+    font-weight: 900;
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-position: center;
+    font-style: italic;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+ 
+}
+
+.quoteBox{
+    background-color: rgba(234, 255, 47, 0.74);
+    height:400px;
+    width:800px;
+    top:100px;
+    left:16rem;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.quoteArea{
+    height:300px;
+    width:800px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    flex-direction: column;
+   
+}
+
+div p{
+    width:80%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight:500;
+    color:rgb(219, 23, 23);
+}
+
+button{
+    font-size: 15px;
+    font-weight: 300;
+    padding: 20px;
+    background-color: rgb(214, 21, 21);
+    border-radius: 20px;
+    border:none;
+    color:aliceblue;
+    position: absolute;
+    top:305px;
+    left:305px;
+}
+
+button:hover{
+    box-shadow:5px 5px #ffffff89;
+}
+
+#authorName{
+    text-align: center;
+    padding-top: 20px;
+    font-size:1.2rem;
+    color:black;
+    font-weight:700;
+}
+
+.style{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
