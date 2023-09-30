@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(background.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    width:100%;
+    height:50px;
+    position: fixed;
+    display:flex;
+    justify-content: space-between;
+}
+
+.web-logo{
+    flex-grow: 2;
+    font-size: 2rem;
+    font-style: bold;
+    font-weight: 300;
+    margin:10px;
+    color: aliceblue;
+}
+
+.web-logo:hover{
+    color:brown;
+}
+
+a{
+    margin:10px;
+    font-size: 1.5rem;
+    color:aliceblue;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color:brown;
+}
+
+button{
+    margin:8px;
+    font-size: 1rem;
+    padding:8px;
+    border-radius: 20px;
+    border:none;
+    background-color: aliceblue;
+}
+
+button:hover{
+    background-color: black;
+    color:aliceblue;
+}
